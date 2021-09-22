@@ -120,8 +120,7 @@ const images = [
       horns: 2
     },
     {
-      url:
-        "https://images.unsplash.com/photo-1594569567351-ad9e90210643?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1530&q=80",
+      url: "https://images.unsplash.com/photo-1507184915978-447ac6ab3ecb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2370&q=80",
       title: "Baby mouflon",
       description: "The cuteness that is a baby mouflon asleep",
       keyword: "mouflon",

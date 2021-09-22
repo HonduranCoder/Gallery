@@ -16,9 +16,10 @@ export default class App extends React.Component {
   
   //function to filter the images array with the state option. Line 9.5 filter array = function(images). return all images that match the keyword in State
   render() {
-    const filteredImages = images.filter(image => {
+    const filteredImages = images.filter((image) => {
       if (this.state.keyword === '') return true
       if (image.keyword === this.state.keyword) return true
+      return false
      }) 
     return (
       <>
