@@ -46,12 +46,18 @@
   align-items: center;
 }
 
-.image-container{
+img{
+  width: 300px;
+  border: 8px solid teal;
+
+}
+
+/*.image-container{
   list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+}*/
 
 .header{
   display: flex;
@@ -59,3 +65,4 @@
   align-items: center;
   color:lightseagreen;
 }
+
