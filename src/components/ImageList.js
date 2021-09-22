@@ -1,11 +1,23 @@
-import React, { Component } from 'react'
+import React from 'react'
+import ImageItem from './ImageItem.js'
 
-export default class ImageList extends Component {
+class ImageList extends React.Component {
+    
     render() {
-        return (
-            <li className="image-conatiner">
-                   <img className="images" src= {this.props.url} alt = {this.props.text}/> <h1>{this.props.title}</h1><p>{this.props.description} is like a {this.props.keyword} with {this.props.horns} horn(s)</p>
-            </li>
-        )
+        return ( 
+            <ul>
+                {
+                this.props.filteredImages.map(image => 
+                (<ImageItem 
+                url = {image.url}
+                title = {image.title}
+                description = {image.description}
+                keyword = {image.keyword}
+                horns ={image.horns} />)
+                )}
+            </ul>
+            );
     }
 }
+
+export default ImageList;
